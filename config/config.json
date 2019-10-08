@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/spfxgetlistitem/SpfxgetlistitemWebPart.js",
+      "manifest": "./src/webparts/spfxgetlistitem/SpfxgetlistitemWebPart.manifest.json",
+      "outputPath": "./dist/spfxgetlistitem-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/spfxform/SpfxformWebPart.js",
+      "manifest": "./src/webparts/spfxform/SpfxformWebPart.manifest.json",
+      "outputPath": "./dist/spfxform-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/additemtolist/AdditemtolistWebPart.js",
+      "manifest": "./src/webparts/additemtolist/AdditemtolistWebPart.manifest.json",
+      "outputPath": "./dist/additemtolist-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/spgroup/SpgroupWebPart.js",
+      "manifest": "./src/webparts/spgroup/SpgroupWebPart.manifest.json",
+      "outputPath": "./dist/spgroup-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/getExternalRestApi/GetExternalRestApiWebPart.js",
+      "manifest": "./src/webparts/getExternalRestApi/GetExternalRestApiWebPart.manifest.json",
+      "outputPath": "./dist/get-external-rest-api-web-part.js"
+    }
+  ],
+  "externals": {
+    "angular": {
+      "path": "node_modules/angular/angular.min.js",
+      "globalName": "angular"
+    }
+  },
+  "localizedResources": {
+    "SpfxgetlistitemWebPartStrings": "webparts/spfxgetlistitem/loc/{locale}.js",
+    "SpfxformWebPartStrings": "webparts/spfxform/loc/{locale}.js",
+    "AdditemtolistWebPartStrings": "webparts/additemtolist/loc/{locale}.js",
+    "SpgroupWebPartStrings": "webparts/spgroup/loc/{locale}.js",
+    "GetExternalRestApiWebPartStrings": "webparts/getExternalRestApi/loc/{locale}.js"
+  }
+}
