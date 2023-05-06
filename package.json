@@ -31,7 +31,7 @@
     "@types/webpack-env": "1.13.1",
     "angular": "^1.7.8",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.4",
     "ng-office-ui-fabric": "^0.16.1",
     "reflect-metadata": "0.1.10",
